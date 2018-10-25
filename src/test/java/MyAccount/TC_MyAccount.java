@@ -9,7 +9,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import UIActions.uiActionMyAccountLogin;
-import UIActions.uiActionRegistrationPage;
 import UIActions.uiActionShopPage;
 import testBase.TestBase;
 import utility.ExcelUtility;
@@ -29,7 +28,7 @@ public class TC_MyAccount extends TestBase{
       log.info("2. Enter the URL http://practice.automationtesting.in ");
 	}
 	
-	/*@Test
+	@Test
 	public void dashboardFunctionality() throws IOException {
 		try 
 		{
@@ -105,9 +104,9 @@ public class TC_MyAccount extends TestBase{
 		{
 			e.printStackTrace();
 		}
-	}*/
+	}
 	
-	@Test(enabled=false)
+	@Test
 	public void accountDetailsFunctionality() throws IOException {
 		try 
 		{

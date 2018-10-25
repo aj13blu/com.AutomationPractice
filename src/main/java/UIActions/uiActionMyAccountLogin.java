@@ -122,7 +122,7 @@ public class uiActionMyAccountLogin extends TestBase
 	}
 	
 	public void credentialCheckExcel() throws FileNotFoundException {   		
-		String path= "C:\\Users\\ajinkya.bhobad\\eclipse-workspace\\AutomationPractise\\src\\resources\\data\\ExcelFile.xls";
+		String path= "C:\\Users\\ajinkya.bhobad\\eclipse-workspace\\AutomationPractise\\src\\resources\\data\\newExcelFile.xls";
 		ExcelUtility excel = new ExcelUtility(path);
 		int row = excel.getRowCount("cred");
 		
